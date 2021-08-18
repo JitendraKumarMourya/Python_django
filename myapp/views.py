@@ -12,3 +12,5 @@ def LoginFun(request):
     return render(request,'login.html')
 def DemoimageFun(request):
     return render(request,'demoimage.html')
+def ProjectFun(request):
+    return render(request,'project_demo.html')
