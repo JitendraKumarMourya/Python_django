@@ -8,25 +8,26 @@
     <title>Project demo2</title>
     <style>
         .container{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 100%;
             height: 800px;
         }
         .header{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             background: #212F3D;
             color: white;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
             padding:2px;
+            padding-left: 50px;
         }
         .python{
             padding-left: 10px;
         }
         .ul{
             float: right;
-            padding-left: 540px;
+            padding-left: 520px;
         }
         .ul li{
             list-style-type: none;
@@ -69,13 +70,19 @@
         .img{
             border: 2px solid yellow;
             background-image: url("{% static 'image/python-back.jpg' %}");
-            
             height: 550px;
             background-size: 100% 100%;
             background-repeat: no-repeat;
             
             
         }
+        .img2{
+            
+            padding-left: 150px;
+            padding-top: 130px;
+            
+        }
+        
     </style>
 </head>
 <body>
@@ -151,11 +158,8 @@
                 <input type="button" name="reset" value="Reset">
                 <hr>
         </form></div>
-        <div class="img"><img src="{% static 'image/giphy2.gif' %}"></div>
-        <div class="foter">
-
-        </div>
-
+        <div class="img">
+        <div class="img2"><img src="{% static 'image/giphy3.webp' %}" width="250px" height="250px"></div></div>
     </div>
 </body>
 </html>

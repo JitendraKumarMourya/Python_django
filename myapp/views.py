@@ -6,8 +6,6 @@ def TextFun(request):
     return HttpResponse('this my views page')
 def IndexFun(request):
     return render(request,'index.html')
-def ProjectdemoFun(request):
-    return render(request,'projectdemo.html')
 def LoginFun(request):
     return render(request,'login.html')
 def DemoimageFun(request):
